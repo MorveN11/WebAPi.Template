@@ -13,7 +13,6 @@ public sealed class Role : Entity
     public static readonly Guid AdminId = Guid.Parse("0194d7d8-3879-7dc3-a392-6345c9ac387d");
     public const string Admin = "Admin";
 
-
     public required string Name { get; init; }
     public List<User> Users { get; init; } = [];
     public List<UserRole> UserRoles { get; init; } = [];
